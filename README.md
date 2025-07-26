@@ -3,56 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Anshu Kumar | Resume</title>
+  <title>Anshu kumar | Resume</title>
   <style>
-    /* Base Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
+      margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #e0f7fa, #f9fbe7);
+      background-color: #f5f5f5;
       color: #222;
       line-height: 1.6;
     }
 
     .container {
-      max-width: 850px;
-      margin: 3rem auto;
+      max-width: 800px;
+      margin: auto;
       padding: 2rem;
-      background: #ffffff;
-      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
-      border-radius: 16px;
-      transition: all 0.3s ease;
+      background: #fff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      margin-top: 40px;
     }
 
     header {
       text-align: center;
-      margin-bottom: 2.5rem;
+      margin-bottom: 2rem;
     }
 
     h1 {
-      font-size: 3rem;
-      color: #333;
+      margin: 0;
+      font-size: 2.5rem;
     }
 
     .tagline {
-      font-size: 1.1rem;
       font-style: italic;
       color: #666;
-      margin-top: 0.5rem;
     }
 
     .section {
-      margin-bottom: 2.5rem;
+      margin-bottom: 2rem;
       opacity: 0;
-      transform: translateY(30px);
-      transition: all 0.6s ease-out;
-      border-left: 4px solid #c8e6c9;
-      padding-left: 1.2rem;
+      transform: translateY(20px);
+      transition: all 0.6s ease;
     }
 
     .section.show {
@@ -61,100 +51,86 @@
     }
 
     .section h2 {
-      font-size: 1.5rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
       margin-bottom: 1rem;
-      color: #2e7d32;
-      position: relative;
+      color: #333;
     }
 
     .entry h3 {
+      margin: 0.2rem 0;
       color: #444;
-      margin-bottom: 0.2rem;
-    }
-
-    .entry p {
-      color: #555;
-      font-size: 0.95rem;
     }
 
     .tags {
       list-style: none;
+      padding: 0;
       display: flex;
       flex-wrap: wrap;
-      gap: 0.6rem;
-      margin-top: 0.5rem;
+      gap: 0.5rem;
     }
 
     .tags li {
-      background: #e0f2f1;
-      color: #004d40;
-      padding: 0.4rem 0.9rem;
-      border-radius: 20px;
-      font-size: 0.85rem;
-      transition: background 0.3s ease;
-      cursor: default;
-    }
-
-    .tags li:hover {
-      background: #b2dfdb;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2.2rem;
-      }
-
-      .container {
-        padding: 1.2rem;
-      }
+      background: #e0e0e0;
+      padding: 0.4rem 0.8rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>Anshu Kumar</h1>
-      <p class="tagline">Data Analyst | Problem Solver | ML Engineer</p>
+      <h1>Anshu kumar </h1>
+      <p class="tagline">data analyst  | Problem Solver | ML engineer </p>
     </header>
 
     <section class="about section">
       <h2>About Me</h2>
-      <p>
-        I am a third-year student at MDU pursuing B.Tech in CSE (AI/ML). With an ever-growing curiosity in tech and hands-on building,
-        I focus on blending embedded systems with AI/ML to solve real-world challenges.
-        I've worked on drones, Li-Fi, and healthcare tools aimed at improving lives through innovation.
+      <p>I am a third year student at MDU pursuing Btech in CSE(AI/ML).With an ever-growing curiosity in tech and hands-on building, 
+        I focus on blending embedded systems with AI/ML to solve real-world challenges. 
+        I've worked on drones, Li-Fi,  and healthcare tools that aim to improve lives with innovation.
+        
       </p>
     </section>
 
     <section class="education section">
       <h2>Education</h2>
       <div class="entry">
-        <h3>B.Tech in Computer Science (AI/ML)</h3>
-        <p>MDU University — 2023–2027</p>
+        <h3>B.Tech in Computer Science</h3>
+        <p>MDU University — 2023-2027</p>
+        
       </div>
     </section>
 
     <section class="skills section">
       <h2>Skills</h2>
       <ul class="tags">
-        <li>OOP</li>
+        <li>OOPS</li>
         <li>DBMS</li>
-        <li>Scikit-learn</li>
-        <li>JavaScript</li>
+        <li>sk learn</li>
+        <li>JavaS</li>
         <li>Git</li>
-        <li>Python</li>
-        <li>Power BI</li>
-        <li>TensorFlow</li>
+        <li>python </li>
+        <li>powerBi</li>
+        <li>tensorflow</li
+        
       </ul>
     </section>
+
+
 
     <section class="languages section">
       <h2>Languages</h2>
       <ul class="tags">
         <li>C</li>
         <li>C++</li>
-        <li>Python</li>
-        <li>Java</li>
+        <li>python</li>
+        <li>java</li>
+        
+        
+        
+        
       </ul>
     </section>
   </div>
